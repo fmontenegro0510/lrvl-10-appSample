@@ -1,0 +1,6 @@
+
+Laravel Brezze
+https://www.itsolutionstuff.com/post/laravel-10-authentication-using-breeze-tutorialexample.html
+
+Paquete en español
+https://laravel-array.com/traducir-mensajes-de-validacion-en-laravel/
