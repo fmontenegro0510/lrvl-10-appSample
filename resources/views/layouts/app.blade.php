@@ -31,10 +31,8 @@
             <main>
                 {{ $slot }}
 
-
-
-
-
+                @yield('content')
+                
             </main>
         </div>
     </body>
