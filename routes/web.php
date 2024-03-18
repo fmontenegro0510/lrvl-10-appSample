@@ -29,6 +29,6 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::resource('psicofisicos', PsicofisicoController::class);
+Route::resource('psicofisicos', PsicofisicoController::class);  
 
 require __DIR__.'/auth.php';
