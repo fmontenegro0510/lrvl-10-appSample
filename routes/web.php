@@ -31,4 +31,19 @@ Route::middleware('auth')->group(function () {
 
 Route::resource('/psicofisicos', PsicofisicoController::class);  
 
+
+/*
+Experimental
+*/
+
+Route::get('/flowbite', function (){
+    return view ('flowbite');
+})->name('flowbite.index');
+
+
+Route::get('/mantenimiento', function (){
+    return view ('error.mantenimiento');
+})->name('flowbite.error');
+
+
 require __DIR__.'/auth.php';
