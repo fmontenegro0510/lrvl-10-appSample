@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('mail');
             $table->timestamps();
+            $table->foreignId('postulante_id')->constrained();            
         });
     }
 

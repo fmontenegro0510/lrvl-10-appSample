@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Correo;
 use App\Models\Postulante;
 use App\Models\Documentacion;
 use Illuminate\Database\Seeder;
@@ -23,5 +24,7 @@ class DatabaseSeeder extends Seeder
 
         Postulante::factory(100)->create();
         Documentacion::factory(50)->create();
+        Correo::factory(500)->create();
+
     }
 }
